@@ -1,0 +1,21 @@
+.fruits {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    font-size: x-large;
+    margin: 20px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.label {
+    display: flex;
+    flex-direction: row;
+}
