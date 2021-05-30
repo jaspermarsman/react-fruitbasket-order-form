@@ -9,8 +9,10 @@ function Fruit ({fruitName, amount, setAmount}) {
     return (
         <>
         <fieldset className={"fruits"}>
-            <h1>{fruitName}</h1>
+            <h1 className={ amount < 5 ? "bad-sales" : "good-sales"}
+            >{fruitName}</h1>
             <button
+                disabled={amount < 1}
                 onClick={() => changeAmount(-1)}
             >
                 -</button>

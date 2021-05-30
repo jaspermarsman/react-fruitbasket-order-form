@@ -8,14 +8,31 @@
 
 }
 
+/**, *:before, *:after {*/
+
+/*}*/
+
 form {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    box-sizing: border-box;
+    width: 400px;
+    margin: 20px;
+    padding: 5px;
 
 }
 
-.label {
+label {
     display: flex;
     flex-direction: row;
+    padding: 3px;
+    justify-content: space-between;
+}
+
+.good-sales {
+    color: darkgreen;
+}
+
+.bad-sales {
+    color: darkred;
 }

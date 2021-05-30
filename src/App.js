@@ -173,8 +173,8 @@ function App() {
           >Opmerkingen
               <textarea
                   id={"remarks"}
-                  cols="30"
-                  rows="10"
+                  cols="20"
+                  rows="5"
                   {...register("remarks")}
               >
               </textarea>
