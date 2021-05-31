@@ -1,0 +1,38 @@
+.fruits {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    font-size: x-large;
+    margin: 20px;
+
+}
+
+/**, *:before, *:after {*/
+
+/*}*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 400px;
+    margin: 20px;
+    padding: 5px;
+
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+    justify-content: space-between;
+}
+
+.good-sales {
+    color: darkgreen;
+}
+
+.bad-sales {
+    color: darkred;
+}
